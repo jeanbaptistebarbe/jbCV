@@ -1,0 +1,313 @@
+.tete {
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
+.black{
+  background-color: #3c3c3c;
+  border-top: 15px solid black;
+  border-bottom: 10px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  height: 25%;
+  width: 35%;
+}
+.grey{
+  background-color: #3c3c3c;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  height: 25%;
+  width: 35%;
+}
+.lowgrey{
+  background-color: #3c3c3c;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  height: 25%;
+  width: 35%;
+}
+.red{
+  background-color: #3c3c3c;
+  border-top: 10px solid black;
+  border-bottom: 15px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  height: 25%;
+  width: 35%;
+}
+div{
+  float: none;
+  text-align: center;
+}
+
+hr{
+  height:15px;
+  width:75%;
+  background-color:black;
+}
+
+.skillbar-wrapper {
+  margin: 1.5em auto;
+  max-width: 960px;
+}
+
+.skillbar {
+  position:relative;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 25px;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  width:110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin: 0;
+}
+
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height:35px;
+  line-height: 35px;
+  border-top-left-radius:25px;
+  border-bottom-left-radius:25px;
+}
+
+.skillbar-bar {
+  height: 35px;
+  width: 0%;
+  border-radius: 25px;
+  transition: 1000ms linear;
+  transition-property: width, background-color;
+
+}
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: rgba( 0, 0, 0, 0.4 );
+  transition: color 1000ms ease-out;
+}
+
+.complete .skill-bar-percent {
+  color: #fff;
+}
+
+.complete.server .skill-bar-percent {
+  color: #333;
+}
+
+.html5 .skillbar-title {
+  background: #d35400;
+}
+.html5 .skillbar-bar {
+  background: #e67e22;
+}
+.css .skillbar-title {
+  background: #2980b9;
+}
+.css .skillbar-bar {
+  background: #3498db;
+}
+.javascript .skillbar-title {
+  background: #fac552;
+}
+.javascript .skillbar-bar {
+  background: #f1ac18;
+}
+.PackOffice .skillbar-title {
+  background: #333333;
+}
+.PackOffice .skillbar-bar {
+  background: #525252;
+}
+.server .skillbar-title {
+  background: #5e2750;
+}
+.server .skillbar-bar {
+  background: #d43227;
+}
+
+body {
+  color:black;
+  background-color:white;
+  background-image:url(https://ih1.redbubble.net/image.551779819.1612/flat,1000x1000,075,f.u1.jpg);
+  background-attachment:fixed;
+  font-family:"Monospace","Optima","sans-serif";
+  margin-right:2em;
+  margin-left: 2em;
+}
+
+.nounderline {
+  background-color: #ec971f;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration-color: white;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*canvas img */
+.canvas{
+  position: absolute;
+  top: 20px;
+    right: 0;
+}
+
+
+#flex--box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading--bar{
+  width: 250px;
+  height: 15px;
+  background: transparent;
+  box-shadow: 0 5px 5px 2px #B3B3B2;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.loading--process{
+  width: 230px;
+  height: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 2.5s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.jsloading--process{
+  width: 170px;
+  height: 15px;
+  background: var(--green);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 2.9s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.ajsloading--process{
+  width: 160px;
+  height: 15px;
+  background: var(--red);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 2.9s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.wploading--process{
+  width: 230px;
+  height: 15px;
+  background: var(--blue);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 2.7s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.bsloading--process{
+  width: 190px;
+  height: 15px;
+  background: var(--purple);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.cnloading--process{
+  width: 150px;
+  height: 15px;
+  background: var(--yellow);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.gtloading--process{
+  width: 160px;
+  height: 15px;
+  background: var(--blue);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.nbloading--process{
+  width: 150px;
+  height: 15px;
+  background: var(--purple);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.atloading--process{
+  width: 180px;
+  height: 15px;
+  background: var(--green);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.psloading--process{
+  width: 160px;
+  height: 15px;
+  background: var(--yellow);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+.gploading--process{
+  width: 150px;
+  height: 15px;
+  background: var(--red);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+.svploading--process{
+  width: 180px;
+  height: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  position: absolute;
+  animation: html 1.8s cubic-bezier(.17,.67,.9,-0.26);
+}
+
+@keyframes html{
+  0%{
+    transform: translateX(-250px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
